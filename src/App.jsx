@@ -5,6 +5,7 @@ import "./App.css";
 import HomePage from "./components/HomePage/HomePage";
 import ServicesCards from "./components/servicesCards/ServicesCards";
 import SkillsSection from "./components/SkillsSection/SkillsSection";
+import FeatureCards from "./components/FeatureCards/FeatureCards";
 export default function App() {
   return (
     <React.Fragment>
@@ -13,6 +14,7 @@ export default function App() {
         <HomePage />
         <ServicesCards />
         <SkillsSection />
+        <FeatureCards />
       </div>
     </React.Fragment>
   );
