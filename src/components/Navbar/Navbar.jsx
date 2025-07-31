@@ -125,7 +125,7 @@ export default function Navbar() {
               {NavbarLinks.map((item, index) => (
                 <li
                   className="relative cursor-pointer"
-                  key={item}
+                  key={index}
                   onMouseEnter={() => setActive(index)}
                   onMouseLeave={() => setActive(null)}
                 >

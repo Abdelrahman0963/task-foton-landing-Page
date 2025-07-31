@@ -185,7 +185,7 @@ export default function HomePage() {
         </motion.div>
         <div
           id="controls-carousel"
-          class="relative w-full"
+          className="relative w-full"
           data-carousel="static"
         >
           <div className="relative h-[100vh] rounded-lg md:h-96 ">
@@ -318,7 +318,7 @@ export default function HomePage() {
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
               <h1>slide2</h1>
             </div>
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div className="hidden duration-700 ease-in-out" data-carousel-item>
               <h1>slide3</h1>
             </div>
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
@@ -327,7 +327,7 @@ export default function HomePage() {
           </div>
           <button
             type="button"
-            class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             data-carousel-prev
           >
             <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
@@ -340,9 +340,9 @@ export default function HomePage() {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M5 1 1 5l4 4"
                 />
               </svg>
@@ -364,9 +364,9 @@ export default function HomePage() {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="m1 9 4-4-4-4"
                 />
               </svg>
