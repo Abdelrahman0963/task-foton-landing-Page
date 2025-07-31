@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "flowbite";
+@import "react-toastify/dist/ReactToastify.css";
+html {
+  scroll-behavior: smooth;
+}
+::selection {
+  background-color: #ff8a73;
+  color: #fff;
+}
