@@ -19,7 +19,7 @@ export default function App() {
         <FeatureCards />
         <div className="bg-[#EBF3FE] h-[50%] lg:h-[80vh] md:h-[80vh] w-full relative">
           <img
-            className="w-full absolute bottom-0 left-1/2  translate-x-[-50%] z-50"
+            className="w-[90%] absolute bottom-0 left-1/2  translate-x-[-50%] z-50"
             src="https://foton.qodeinteractive.com/wp-content/uploads/2018/07/main-home-rev-slider-background-2.png"
             alt="background-image"
           />
