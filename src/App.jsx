@@ -24,7 +24,7 @@ export default function App() {
             alt="background-image"
           />
           <img
-            className="w-full absolute bottom-0 left-1/2 translate-x-[-50%] z-40"
+            className="w-[80%] absolute bottom-0 left-1/2 translate-x-[-50%] z-40"
             src="https://foton.qodeinteractive.com/wp-content/uploads/2018/07/main-home-rev-slider-background-1.png"
             alt=""
           />
