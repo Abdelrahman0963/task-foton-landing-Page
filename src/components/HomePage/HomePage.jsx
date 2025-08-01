@@ -232,14 +232,14 @@ export default function HomePage() {
                 <div className="carsousel-container-content-images-animation flex gap-4">
                   <div className="carsousel-container-content-images-animation-one relative w-[100%] h-[100%] ">
                     <motion.img
-                      initial={{ x: "-90%", opacity: 0 }}
-                      whileInView={{ x: "0%", opacity: 1 }}
+                      initial={{ x: "-50%", opacity: 0 }}
+                      whileInView={{ x: "0", opacity: 1 }}
                       transition={{
                         duration: 1,
                         ease: "easeInOut",
                       }}
                       viewport={{ once: false, amount: 0.3 }}
-                      className="w-[150px] md:w-[250px] absolute bottom-[-19rem] left-0 md:left-36 z-50"
+                      className="w-[150px] md:w-[250px] absolute bottom-[-19rem] left-[-.5rem] md:left-36 z-50"
                       src="https://foton.qodeinteractive.com/wp-content/uploads/2018/06/main-img-9.png"
                       alt=""
                     />
@@ -252,7 +252,7 @@ export default function HomePage() {
                         ease: "easeInOut",
                       }}
                       viewport={{ once: false, amount: 0.3 }}
-                      className="w-[80px] md:w-[100px] absolute bottom-[-19rem] left-0 md:left-52 z-50"
+                      className="w-[80px] md:w-[100px] absolute bottom-[-19rem] left-[-.5rem] md:left-52 z-50"
                       src="https://foton.qodeinteractive.com/wp-content/uploads/2018/06/main-img-10.png"
                       alt="images"
                     />
@@ -288,7 +288,7 @@ export default function HomePage() {
                         ease: "easeInOut",
                       }}
                       viewport={{ once: false, amount: 0.5 }}
-                      className="md:w-[90px] w-[70px] absolute bottom-[-10rem] left-[44%] z-50"
+                      className="md:w-[90px] w-[70px] absolute bottom-[-6rem] left-[26rem] z-50"
                       src="https://foton.qodeinteractive.com/wp-content/uploads/2018/06/main-img-7.png"
                       alt=""
                     />
@@ -327,10 +327,10 @@ export default function HomePage() {
           </div>
           <button
             type="button"
-            className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer"
             data-carousel-prev
           >
-            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent">
               <svg
                 className="w-8 h-8 text-[#58468c] rtl:rotate-180"
                 aria-hidden="true"
@@ -351,10 +351,10 @@ export default function HomePage() {
           </button>
           <button
             type="button"
-            className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group"
             data-carousel-next
           >
-            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent ">
               <svg
                 className="w-8 h-8 text-[#58468c] rtl:rotate-180"
                 aria-hidden="true"
