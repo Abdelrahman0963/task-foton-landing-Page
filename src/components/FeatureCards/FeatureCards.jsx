@@ -69,7 +69,7 @@ export default function FeatureCards() {
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 4000, disableOnInteraction: false }}
         spaceBetween={10}
         slidesPerView={4}
         slidesPerGroup={1}

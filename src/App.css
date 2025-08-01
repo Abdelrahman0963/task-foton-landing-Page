@@ -11,13 +11,32 @@
 .btn-contact:hover {
   box-shadow: 0px 20px 50px #5580f7;
 }
-.swiper-pagination-bullet {
+.swiper-pagination-bullet:nth-child(1) {
+  opacity: 1;
   background-color: #ff8a73 !important;
   padding-top: 0.5rem;
+  width: 0.6rem;
+  height: 0.6rem;
 }
-.swiper-pagination-bullet-active {
+.swiper-pagination-bullet:nth-child(2) {
+  opacity: 1;
+  background-color: #58468c !important;
+  padding-top: 0.5rem;
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.swiper-pagination-bullet:nth-child(3) {
+  opacity: 1;
   background-color: #5580f7 !important;
+  padding-top: 0.5rem;
+  width: 0.6rem;
+  height: 0.6rem;
 }
+.swiper-pagination-bullet:nth-child(4),
+.swiper-pagination-bullet:nth-child(5) {
+  display: none;
+}
+
 .swiper-pagination {
   position: relative !important;
   margin-top: 20px;
