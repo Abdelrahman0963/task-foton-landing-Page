@@ -6,6 +6,7 @@ import HomePage from "./components/HomePage/HomePage";
 import ServicesCards from "./components/servicesCards/ServicesCards";
 import SkillsSection from "./components/SkillsSection/SkillsSection";
 import FeatureCards from "./components/FeatureCards/FeatureCards";
+import WhatWeOffer from "./components/WhatWeOffer/WhatWeOffer";
 export default function App() {
   return (
     <React.Fragment>
@@ -27,6 +28,7 @@ export default function App() {
             alt=""
           />
         </div>
+        <WhatWeOffer />
       </div>
     </React.Fragment>
   );
