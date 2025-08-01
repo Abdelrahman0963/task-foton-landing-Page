@@ -65,7 +65,7 @@ export default function FeatureCards() {
   ];
 
   return (
-    <section className="!pt-10 !px-6 md:!px-24 ">
+    <section className=" bg-[#fff] !pt-10 !px-6 md:!px-24 ">
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{ clickable: true }}
@@ -87,7 +87,7 @@ export default function FeatureCards() {
       >
         {users.map((user, index) => (
           <SwiperSlide key={index}>
-            <div className="!p-8 bg-white w-full md:w-72 lg:w-80 shadow rounded-2xl text-center h-96 flex flex-col justify-between items-center gap-6 hover:shadow-2xl hover:translate-y-[-10px] transition ease-in-out duration-300">
+            <div className="!p-8 bg-[#fff]  w-full md:w-72 lg:w-80 shadow rounded-2xl text-center h-96 flex flex-col justify-between items-center gap-6 hover:shadow-2xl hover:translate-y-[-10px] transition ease-in-out duration-300">
               <div className="user-images">
                 <img className="w-40" src={user.image} alt={user.title} />
               </div>
@@ -99,11 +99,11 @@ export default function FeatureCards() {
                   {user.description}
                 </p>
               </div>
-              <div className="user-read-me w-60 overflow-hidden border-t border-[#716C80] flex justify-between items-center !p-5">
-                <p className="text-[#716C80] text-sm font-light hover:text-[#FF8A73]">
+              <div className="user-read-me w-full lg:w-80 md:w-72 overflow-hidden border-t border-[#716C80] flex justify-between items-center !p-5">
+                <p className="text-[#58468C] text-[.9rem] font-medium hover:text-[#FF8A73]">
                   Read More
                 </p>
-                <IoIosArrowRoundForward className="text-2xl text-[#716C80] hover:text-[#FF8A73]" />
+                <IoIosArrowRoundForward className="text-2xl text-[#58468C] hover:text-[#FF8A73]" />
               </div>
             </div>
           </SwiperSlide>
