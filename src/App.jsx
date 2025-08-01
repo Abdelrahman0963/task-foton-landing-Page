@@ -17,7 +17,7 @@ export default function App() {
         <ServicesCards />
         <SkillsSection />
         <FeatureCards />
-        <div className="bg-[#EBF3FE] h-[50%] lg:h-[80vh] md:h-[80vh] w-full relative">
+        <div className="bg-[#EBF3FE] h-[50%] lg:h-[80vh] md:h-[80vh] w-full relative overflow-hidden">
           <img
             className="w-[80%] absolute bottom-0 left-1/2  translate-x-[-50%] z-50"
             src="https://foton.qodeinteractive.com/wp-content/uploads/2018/07/main-home-rev-slider-background-2.png"
