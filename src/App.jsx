@@ -7,11 +7,12 @@ import ServicesCards from "./components/servicesCards/ServicesCards";
 import SkillsSection from "./components/SkillsSection/SkillsSection";
 import FeatureCards from "./components/FeatureCards/FeatureCards";
 import WhatWeOffer from "./components/WhatWeOffer/WhatWeOffer";
+import ShopWOA from "./components/ShopWOA/ShopWOA";
 export default function App() {
   return (
     <React.Fragment>
       <Navbar />
-      <div className="hero overflow-auto pt-5 h-[100vh]">
+      <div className="hero overflow-auto pt-5 w-[100vw] h-[100vh]">
         <HomePage />
         <ServicesCards />
         <SkillsSection />
@@ -29,6 +30,7 @@ export default function App() {
           />
         </div>
         <WhatWeOffer />
+        <ShopWOA />
       </div>
     </React.Fragment>
   );
