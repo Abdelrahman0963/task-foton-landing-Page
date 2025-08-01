@@ -12,7 +12,7 @@ export default function App() {
   return (
     <React.Fragment>
       <Navbar />
-      <div className="hero overflow-auto pt-5 w-[100vw] h-[100vh]">
+      <div className="hero overflow-x-hidden pt-5 w-[100vw] h-[100vh]">
         <HomePage />
         <ServicesCards />
         <SkillsSection />

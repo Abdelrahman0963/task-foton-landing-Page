@@ -5,7 +5,7 @@ import "flowbite";
 export default function HomePage() {
   return (
     <React.Fragment>
-      <section className="home relative flex !py-0 !px-6  !md:py-6 !md:px-12 overflow-hidden w-[100vw]  h-[85vh]">
+      <section className="home relative flex !py-0 !px-6 lg:py-6  !md:py-6 !md:px-12 overflow-hidden w-[100vw]  h-[85vh]">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -188,7 +188,7 @@ export default function HomePage() {
           className="relative w-full"
           data-carousel="static"
         >
-          <div className="relative h-[100vh] rounded-lg md:h-96 ">
+          <div className="relative w-full  h-[100vh] rounded-lg md:h-96 ">
             <div
               className="hidden duration-700 ease-in-out"
               data-carousel-item
