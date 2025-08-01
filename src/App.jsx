@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import HomePage from "./components/HomePage/HomePage";
 import ServicesCards from "./components/servicesCards/ServicesCards";
