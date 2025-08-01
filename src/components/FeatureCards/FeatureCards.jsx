@@ -72,6 +72,7 @@ export default function FeatureCards() {
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         spaceBetween={10}
         slidesPerView={4}
+        slidesPerGroup={1}
         breakpoints={{
           0: {
             slidesPerView: 1,
