@@ -86,7 +86,7 @@ export default function FeatureCards() {
       >
         {users.map((user, index) => (
           <SwiperSlide key={index}>
-            <div className="!p-8 bg-white w-60 shadow rounded-2xl text-center h-96 flex flex-col justify-between items-center gap-6 hover:shadow-2xl hover:translate-y-[-10px] transition ease-in-out duration-300">
+            <div className="!p-8 bg-white w-full md:w-72 lg:w-80 shadow rounded-2xl text-center h-96 flex flex-col justify-between items-center gap-6 hover:shadow-2xl hover:translate-y-[-10px] transition ease-in-out duration-300">
               <div className="user-images">
                 <img className="w-40" src={user.image} alt={user.title} />
               </div>
